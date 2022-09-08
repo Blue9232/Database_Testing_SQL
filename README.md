@@ -1,6 +1,6 @@
 Acesta este un proiect facut in SQL!
 
-Acest proiect este format din 3 tabele:
+Acest proiect este format din 3 tabele + 1 fisier tip "query" cu interogari:
 
 - Detalii clienti 
 - Produse
