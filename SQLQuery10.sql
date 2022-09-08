@@ -1,0 +1,23 @@
+SELECT COUNT (IDTRANZACTIE)
+FROM Tranzactii
+WHERE IDClient = 1;
+
+
+SELECT COUNT (IDTRANZACTIE)
+FROM Tranzactii
+WHERE IDClient = 1 AND IDProdus = 123;
+
+
+SELECT COUNT (IDTRANZACTIE)
+FROM Tranzactii
+WHERE IDClient = 1 AND IDProdus = 124;
+
+
+SELECT COUNT (IDTRANZACTIE) as "Produse Cumparate"
+FROM Tranzactii
+WHERE IDProdus = 124;
+
+
+SELECT COUNT (IDTRANZACTIE) as "Produse Cumparate"
+FROM Tranzactii
+WHERE IDProdus = 123;
